@@ -1,20 +1,35 @@
 import React from "react"
-import { Link } from "gatsby"
+import Skills from "../components/skills"
+import Projects from "../components/projects"
+import RightSidebar from "../components/rightSidebar"
+// eslint-disable-next-line
+import fontawesome from "../fontawesome"
+// import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+import "../components/styles/index.scss"
+// import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div className="container">
+      <div className="left__div">
+        <p className="typewriter title">Hello, my name is Abel Acosta!</p>
+        <h3>
+          I'm a front end developer with experience using modern JavaScript
+          libraries. I enjoy every aspect of it, and I love building responsive
+          websites from start to finish.
+        </h3>
+        <Skills />
+        <h2 className="projects__title">Projects</h2>
+        <Projects />
+      </div>
+      <div className="right__div">
+        <RightSidebar />
+      </div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 

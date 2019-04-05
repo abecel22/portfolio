@@ -1,0 +1,91 @@
+.sidebar__container {
+  padding: 0px 50px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.profile__container {
+  padding-top: 18px;
+  flex-grow: 1;
+  .profile__image {
+    width: 180px;
+    height: 180px;
+    background-image: url(../../images/Abel.png);
+    background-size: cover;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    transition: all 2s ease;
+  }
+  .profile__image:hover {
+    filter: grayscale(10%);
+  }
+  .profile__bio {
+    padding-top: 5px;
+    font-size: 0.85rem;
+    line-height: 2;
+    a {
+      color: inherit;
+    }
+  }
+}
+
+.bottom__links {
+  border-top: 1.5px solid grey;
+  a {
+    color: inherit;
+    transition: all 1s ease;
+    :hover {
+      transform: translatey(-3px);
+    }
+  }
+  .icons {
+    margin: 2vw 0 2vw 0;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 970px) {
+  .sidebar__container {
+    padding: 0 2vw;
+    .profile__bio {
+      line-height: 1.75;
+    }
+    .profile__image {
+      margin: 0 auto 2vw;
+    }
+    .bottom__links {
+      margin: 2vw 0;
+    }
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  .sidebar__container {
+    padding: 1vw 5vw;
+    .profile__bio {
+      line-height: 3;
+    }
+    .profile__image {
+      margin: 0 auto 4vw;
+    }
+    .bottom__links {
+      margin-top: 2vw;
+      margin-bottom: 4vw;
+    }
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .sidebar__container {
+    padding: 2vw 10vw 2vw 10vw;
+    .profile__image {
+      margin: 0 auto;
+    }
+    .bottom__links {
+      margin-bottom: 2vw;
+    }
+  }
+}
