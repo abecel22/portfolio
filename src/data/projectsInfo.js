@@ -12,6 +12,17 @@ module.exports = {
       githubLink: "https://github.com/abecel22/costa-admin/",
     },
     {
+      name: "MyMd",
+      slug: "mymd",
+      briefIntro:
+        "Find a doctor near you! Built with React and the BetterDoctor API.",
+      img: "mymd",
+      paragraph:
+        "Find a doctor near you! Get details on office location, experience, and insurances accepted. Built with React, Bootstrap, and the BetterDoctor API.",
+      link: "https://mymd.netlify.com/",
+      githubLink: "https://github.com/abecel22/myMD",
+    },
+    {
       name: "YelpCamp",
       slug: "yelpcamp",
       briefIntro:
@@ -21,17 +32,6 @@ module.exports = {
         "Learn about, add, and review campgrounds! JavaScript, Express, Google Maps API, Authentication, and MongoDB.",
       link: "http://costa-yelp-camp.herokuapp.com/",
       githubLink: "https://github.com/abecel22/CostaYelpCamp",
-    },
-    {
-      name: "CampDash",
-      slug: "campdash",
-      briefIntro:
-        "New tab Chrome Extension clone of Momentum. jQuery, SCSS, and APIs.",
-      img: "campDash",
-      paragraph:
-        "A new tab Chrome extension clone of Momentum. Features include a news feed, current weather, and a todo list. Created on the Electron platform for demonstration purposes. Desktop version only. jQuery, SCSS, and APIs.",
-      link: "http://camp-dash.surge.sh/",
-      githubLink: "https://github.com/abecel22/CampDashApp",
     },
     {
       name: "Wikipedia Viewer",
@@ -45,6 +45,18 @@ module.exports = {
       githubLink: "https://github.com/abecel22/wikipedia_viewer",
     },
     {
+      name: "CampDash",
+      slug: "campdash",
+      briefIntro:
+        "New tab Chrome Extension clone of Momentum. jQuery, SCSS, and APIs.",
+      img: "campDash",
+      paragraph:
+        "A new tab Chrome extension clone of Momentum. Features include a news feed, current weather, and a todo list. Created on the Electron platform for demonstration purposes. Desktop version only. jQuery, SCSS, and APIs.",
+      link: "http://camp-dash.surge.sh/",
+      githubLink: "https://github.com/abecel22/CampDashApp",
+    },
+
+    {
       name: "Costa Weather",
       slug: "costa-weather",
       briefIntro: " Weather app! Weather Underground API and jQuery.",
@@ -53,16 +65,6 @@ module.exports = {
         "Weather app! Features include local current weather and an autocomplete city search. Weather Underground API and jQuery.",
       link: "https://costa-weather.surge.sh/",
       githubLink: "https://github.com/abecel22/costa-weather",
-    },
-    {
-      name: "Quote Generator",
-      slug: "quote-generator",
-      briefIntro: "Generate an uplifting quote on demand! JS, AJAX, and CSS.",
-      img: "quote",
-      paragraph:
-        "Generate an uplifting quote on demand! If you love the quote, tweet it out! JavaScript, AJAX, Twitter API, and CSS.",
-      link: "https://costa-quotes.surge.sh/",
-      githubLink: "https://github.com/abecel22/RandomQuoteGenerator",
     },
   ],
 }
