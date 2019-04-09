@@ -4,7 +4,6 @@ import Projects from "../components/projects"
 import RightSidebar from "../components/rightSidebar"
 // eslint-disable-next-line
 import fontawesome from "../fontawesome"
-// import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import "../components/styles/index.scss"

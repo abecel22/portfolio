@@ -11,7 +11,7 @@ export default props => {
 
   return (
     <Layout>
-      <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+      <SEO title={name} keywords={[`gatsby`, `application`, `react`]} />
       <div className="container">
         <div className="left__div">
           <Link to="/" className="button">
