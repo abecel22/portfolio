@@ -6,9 +6,9 @@ import "./styles/skills.scss"
 const Skills = () => {
   return (
     <div>
-      <h2 className="skills">What I Do</h2>
+      <h3 className="skills">What I Do</h3>
       <div className="skillsDiv">
-        <div className="fb">
+        <div className="skillsDiv_column">
           <table>
             <thead>
               <tr>
@@ -53,7 +53,7 @@ const Skills = () => {
             </tbody>
           </table>
         </div>
-        <div className="fb">
+        <div className="skillsDiv_column">
           <table>
             <thead>
               <tr>

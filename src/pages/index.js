@@ -15,14 +15,14 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <div className="container">
       <div className="left__div">
-        <p className="typewriter title">Hello, my name is Abel Acosta!</p>
-        <h3>
+        <h2 className="typewriter title">Hello, my name is Abel Acosta!</h2>
+        <p className="left__div-intro">
           I'm a front end developer with experience using modern JavaScript
           libraries. I enjoy every aspect of it, and I love building responsive
           websites from start to finish.
-        </h3>
+        </p>
         <Skills />
-        <h2 className="projects__title">Projects</h2>
+        <h3 className="projects__title">Projects</h3>
         <Projects />
       </div>
       <div className="right__div">

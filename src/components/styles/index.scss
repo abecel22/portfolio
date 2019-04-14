@@ -10,7 +10,7 @@
   padding: 2rem 3rem;
   overflow: scroll;
   .title {
-    margin: 2.5vw 1.5vw 0.5vw 1vw;
+    margin: 2.5vw 1.5vw 0.5vw 1.5vw;
     border-right: 2px solid rgba(255, 255, 255, 0.75);
     font-size: calc(16px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
     white-space: nowrap;
@@ -19,21 +19,15 @@
     transform: translateY(-50%);
     font-weight: 800;
   }
-  h2 {
-    margin: 0.5vw 1.5vw;
-  }
   h3 {
+    margin: 1.5vw 1.5vw;
+  }
+  .left__div-intro {
     margin: 1.5vw 1.5vw;
     font-size: calc(12px + (26 - 16) * ((100vw - 300px) / (1600 - 300)));
     font-weight: 300;
   }
-  h4 {
-    padding-left: 0.5rem;
-  }
-  p {
-    font-size: 0.9rem;
-    padding-left: 0.5rem;
-  }
+
   .typewriter {
     animation: typewriter 3.5s steps(44) 1s 1 normal both,
       blinkTextCursor 600ms steps(44) infinite normal;
@@ -140,8 +134,8 @@
     }
 
     .project-details_info {
-      margin: 2em;
-      padding: 0.5em;
+      margin: 1.5em;
+      padding: 0.25em;
     }
 
     .projects-row_info {
